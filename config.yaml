@@ -1,0 +1,11 @@
+server:
+  address: "0.0.0.0"
+  port: 80
+
+redirects:
+  "old.example.com":
+    to: "https://new.example.com/"
+    status: 301
+  "example.com/foo":
+    to: "https://example.com/bar"
+    status: 302
